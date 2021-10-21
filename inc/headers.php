@@ -6,7 +6,6 @@ header('Access-Control-Allow-Headers: Content-Type');
 header('Access-Control-Allow-Max-Age: 3600');
 header('Content-Type: application/json');
 
-
 if ($_SERVER['REQUEST_METHOD']=== 'OPTIONS') {
-    return 0;
+  return 0;
 }
